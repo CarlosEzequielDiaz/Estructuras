@@ -24,11 +24,9 @@ funciónn Lenght() en Java.
         
         Scanner leer = new Scanner (System.in);
         
-        String frase;
-        
         
         System.out.println("Ingrese una palabra o frase de 8 de largo");
-        frase = leer.nextLine();
+        String frase = leer.nextLine();
         
         //int largo = frase.length();
         
@@ -40,7 +38,6 @@ funciónn Lenght() en Java.
             
             System.out.println("Incorrecto");
         }
-
 
         
     }
